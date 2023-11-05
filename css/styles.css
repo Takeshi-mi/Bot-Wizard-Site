@@ -18,16 +18,22 @@ body {
   
   /* Barra de navegação */
   header, .navbar {
-    background-color: #353D41;
-  }
-  
+    background: linear-gradient(-135deg, rgba(0, 17, 250, 0.61), black);
+
+    /* Adicione as outras propriedades do Figma */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  }  
   #nav-container {
     padding-top: 0;
     padding-bottom: 0;
   }
+
+
+
   
   #logo {
-    width: 75px;
+    width: 85px;
   }
   
   .navbar-brand {
