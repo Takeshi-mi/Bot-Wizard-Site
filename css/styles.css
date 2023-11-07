@@ -1,8 +1,9 @@
 /* Gerais */
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(42, 0, 193);
   }
-  
+
   .row {
     margin: 0;
   }
@@ -18,9 +19,8 @@ body {
   
   /* Barra de navegação */
   header, .navbar {
-    background: linear-gradient(-135deg, rgba(0, 17, 250, 0.61), black);
+    background: linear-gradient(-135deg, rgba(92, 0, 250, 0.61), black);
 
-    /* Adicione as outras propriedades do Figma */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   }  
@@ -57,3 +57,4 @@ body {
     border-bottom: 3px solid #FFF;
   }
   
+/* Carrossel */
