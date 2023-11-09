@@ -5,4 +5,4 @@
 
 Visite nosso site e agende uma reunião!
 
-[https://takeshi-mi.github.io/Bot-Wizard-Site/](https://takeshi-mi.github.io/Bot-Wizard-Site/)
+[https://takeshi-mi.github.io/ChatWizard-Site/](https://takeshi-mi.github.io/ChatWizard-Site/)
