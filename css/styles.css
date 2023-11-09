@@ -1,7 +1,7 @@
 /* Gerais */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(42, 0, 193);
+    background-color: #3106FF;
   }
 
   .row {
@@ -29,11 +29,15 @@ body {
     padding-bottom: 0;
   }
 
-
+@media(max-width: 700px) {
+  a {
+    
+  }
+} 
 
   
   #logo {
-    width: 85px;
+    width: 70px;
   }
   
   .navbar-brand {
@@ -42,11 +46,22 @@ body {
   }
   
   .navbar-brand:hover {
-    color: #FFF;
+    color:yellow;
+
+    cursor: pointer;
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
   }
   
   #navbar-links a {
-    color: #FFF;
+    color: #ffffff;
+  }
+  #navbar-links a:hover{
+    color:yellow;
+    cursor: pointer;
+    -webkit-transform: scale(1);
+    transform: scale(1.2);
+
   }
   
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -56,5 +71,61 @@ body {
   .nav-item.active {
     border-bottom: 3px solid #FFF;
   }
+
   
 /* Carrossel */
+
+main{
+  margin-top: 80px;
+}
+
+/*divisa */
+.depoimentos-title, h5, p{
+  margin:39px;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+
+
+/* Cards */
+
+.card-deck{
+
+  margin: 30px;
+  -webkit-box-shadow:0px 0px 104px 54px rgba(245,46,255,0.77);
+  -moz-box-shadow: 0px 0px 104px 54px rgba(245,46,255,0.77);
+  box-shadow: 0px 0px 104px 54px rgba(245,46,255,0.77);
+}
+
+.card-body{
+  color: black;
+}
+.card-title{
+  color: black;
+}
+.card-img-top { 
+  width: 100%;
+  border: 5px solid #f46161;
+  -webkit-transition: -webkit-transform .5s ease;
+  trasition: transform .5s ease;
+  }
+
+.card-img-top:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+    }
+
+#card-container{
+  color: black;
+  margin: auto;
+  padding: auto;
+  align-items: auto;
+  align-content: auto;
+}
+
+.card{
+  padding: 30px;
+}
