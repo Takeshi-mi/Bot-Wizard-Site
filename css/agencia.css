@@ -32,28 +32,51 @@ body {
     color: white;
     z-index: 1;
 }
-
+/* Footer */
+footer {
+    margin-top:20px;
+    background-color: #0a76e2;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 /* Adicionando a regra de mídia para telas menores */
 @media screen and (max-width: 600px) {
     #video-background {
-        display: none; /* Oculta o vídeo em telas menores */
+        display: none;
+        /* Oculta o vídeo em telas menores */
     }
 
-    .video-container {
-        background: ;
-        background-size: cover;
-    }
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space;
+  
+        
 
-}
-    .conteudo-principal{
-    font-size: 15px;
     }
-    p{
+
+    .conteudo-principal {
+        font-size: 15px;
+    }
+
+
+    p {
         font-size: 12px;
+        padding-top: 0px;
+        margin-bottom: 60px;
+
     }
+    /* Footer */
+footer {
+    margin-top: auto;
+    padding: auto   ;
+    bottom: 0;
+    width: 100%;
 }
+
+}
+
+
