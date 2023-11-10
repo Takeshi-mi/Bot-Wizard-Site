@@ -93,7 +93,7 @@ main{
 
 /* Cards */
 
-.card-deck{
+.card-group{
 
   margin: 30px;
   -webkit-box-shadow:0px 0px 104px 54px rgba(245,46,255,0.77);
@@ -127,7 +127,11 @@ main{
   align-items: auto;
   align-content: auto;
 }
-
+.card border-info mb-3{
+  -webkit-box-shadow:0px 0px 104px 54px rgba(245,46,255,0.77);
+  -moz-box-shadow: 0px 0px 104px 54px rgba(245,46,255,0.77);
+  box-shadow: 0px 0px 104px 54px rgba(245,46,255,0.77);
+}
 .card{
   padding: 30px;
 }
