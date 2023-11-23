@@ -7,4 +7,9 @@ Visite nosso site e agende uma reunião!
 
 [https://takeshi-mi.github.io/ChatWizard-Site/](https://takeshi-mi.github.io/ChatWizard-Site/)
 
+## Descrição do projeto
+
+
 ## Tecnologias utilizadas
+
+## Paleta de cores e como pensamos o UX/UI
