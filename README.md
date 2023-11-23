@@ -6,3 +6,5 @@
 Visite nosso site e agende uma reunião!
 
 [https://takeshi-mi.github.io/ChatWizard-Site/](https://takeshi-mi.github.io/ChatWizard-Site/)
+
+## Tecnologias utilizadas
