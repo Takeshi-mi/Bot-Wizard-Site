@@ -13,3 +13,8 @@ Visite nosso site e agende uma reunião!
 ## Tecnologias utilizadas
 
 ## Paleta de cores e como pensamos o UX/UI
+
+## Colaboradores
+[Takeshi Miura](https://github.com/Takeshi-mi)
+[Sara Cândido](https://github.com/Sayorita)
+[Naoki Miura](https://github.com/imaterialtree)
