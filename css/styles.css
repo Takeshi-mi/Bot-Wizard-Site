@@ -75,7 +75,9 @@ body {
     border-bottom: 3px solid #FFF;
   }
 
-  
+  img{
+    font-size: xx-small;
+  }
 /* Carrossel */
 
 main{
