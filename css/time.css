@@ -1,0 +1,39 @@
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.member {
+    width: 25%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+}
+
+.member h3 {
+    margin: 20px 0;
+}
+
+.member p {
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .member {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .member {
+        width: 100%;
+    }
+}
