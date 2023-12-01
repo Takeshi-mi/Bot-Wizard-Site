@@ -1,21 +1,22 @@
 
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    overflow: auto;
-}
 
+section{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
 .member {
     width: 25%;
     padding: 20px;
-    float: left;
     box-sizing: border-box;
 }
 
 .member img {
     width: 100%;
     height: auto;
+    display:block;
 }
 
 .member h3 {
