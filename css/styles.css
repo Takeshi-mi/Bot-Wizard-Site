@@ -4,6 +4,10 @@ body {
     background-color: #3106FF;
     color: white;
   }
+  .card-group{
+    background-color: #9E1CFF;
+  }
+    
 
   .row {
     margin: 0;
