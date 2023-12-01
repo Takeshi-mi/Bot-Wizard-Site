@@ -59,5 +59,6 @@ function mudarPos(mensagem){
 
 }
 function geraPosicao(min, max) {
-    return (Math.random() * (max - min) + min) + "%";
+    const ajusteMin = -20; 
+    return (Math.random() * (max - ajusteMin) + ajusteMin) + "%";
 }
