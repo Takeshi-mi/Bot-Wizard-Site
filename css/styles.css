@@ -85,7 +85,20 @@ body {
 main{
   margin-top: 200px;
 }
+/*jogo*/
+.tela{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 
+}
+#button-iniciar{
+  margin: 20px;
+  padding: 10px;
+}
+.espaço-title{
+  height: 100px;
+}
 /*divisa */
 .depoimentos-title, h5, p{
   margin:39px;
