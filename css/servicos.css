@@ -1,0 +1,139 @@
+
+#lema{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 47px;
+    color: #EBEFEE;
+}
+
+.img {
+    width: 35ch;
+    height:40ch;
+    padding: 0;
+    margin: 0;
+
+}
+#diff {
+    font-size: 45px; 
+    font-weight: bold; 
+    color: white; 
+    margin-top: 10px;
+    align-self: center;
+  }
+
+  p {
+    font-size: 14pt; 
+    margin-top: 10px; 
+    align-self: center;
+  }
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+  }
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    font-family: Oswald;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid;
+    padding: 0.8rem 0.7rem;
+    font-size: 17px;
+    line-height: 1.5;
+    border-radius:2cap;
+    color: black;
+    background-color:#FFC405;
+    border-color: black;
+    margin-bottom: 4cm;
+   }
+   
+   .btn:hover{
+    background-color: #93FF05;
+   }
+
+   .btn a.no-line{
+        text-decoration: none;
+        outline: none;
+        color: black;
+   }
+
+   .grid{
+    background-color: #110138;
+    padding: 6cap;
+}
+
+   main{
+    font-size: 12pt;
+   }
+
+    .sumari{
+        background-color: #3106FF;  
+    }
+
+    .list-group-item{
+        
+        background-color: #FFFFFF;  
+        padding: 2cap;
+        margin: 0;
+        font-family: Roboto;
+        font-size: 17pt;
+    }
+
+    .principal{
+        background-color: #110138;
+    }
+    
+.customi {
+    width: 35ch;
+    height:40ch;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    align-self: center;
+
+}
+
+   body.temaClaro {
+    background-color: #fff;
+    color: black;
+   }
+   
+   body.temaEscuro {
+    background-color: black;
+    color: #fff;
+   }
+
+   
+
+#tema{
+        display: inline-block;
+        font-weight: 400;
+        font-family: Oswald;
+        text-align: center;
+        vertical-align: middle;
+        border: 3px solid;
+        padding: 0.8rem 0.7rem;
+        font-size: 17px;
+        line-height: 1.5;
+        border-radius:2cap;
+        color: black;
+        background-color:pink;
+        border-color: black;
+        margin-bottom: 4cm;
+       }
+
+
+
+      
+      
+
+    

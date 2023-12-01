@@ -5,12 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" type="imagex/png" href="./img/icon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/servicos.css">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
   <title>ChatWizard Contatos</title>
+  <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -40,6 +46,114 @@
     </div>
   </header>
 
+  <div class="container text-center">
+    <div class="row">
+      <img src="img/a robot.png" class="img-fluid" alt="Imagem do robô" />
+    </div>
+    <div class="row">
+      <div class="container mt-5">
+        <p id="lema">Tenha o que há de mais moderno no mercado de automações para bots com nossos serviços</p>
+        <button class="btn"><a href="contato.html" class="no-line" target="_blank"> Mande-nos uma mensagem</a>
+          <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <img src="img/girl idea.png" class="img"/>
+        <p id="diff">Trabalhamos com</p>
+    </div>
+
+    <div class="row">
+      <div class="col-3 col-md-8 mx-auto">
+      <div class="card sumari">
+        <ul class="list-group list-group-horizontal-md flex-column">
+          <li class="list-group-item">Integração com Plataformas</li>
+          <li class="list-group-item">Treinamento de Chatbots</li>
+          <li class="list-group-item">Análise de Dados e Relatórios</li>
+          <li class="list-group-item">Manutenção e Suporte Técnico</li>
+          <li class="list-group-item">Segurança e Conformidade</li>
+        </ul>
+      </div>
+     </div>
+    </div>
+
+    <div class="row">
+      <button id="tema">Mudar tema da página</button>
+    </div>
+
+  </div>
+
+  <main>
+    <div class="grid text-center" style="--bs-columns: 3;"> 
+          <div class="row">
+            <div class="g-col-3 g-col-md-4 mx-auto">
+              <div class="card principal">
+                <img class="card-img-top customi" src="img/integrar.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Integração com plataformas</h5>
+                  <p class="card-text">Integração de chatbots em diferentes plataformas, como sites, aplicativos móveis, redes sociais, entre outros.</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-3 g-col-md-4 mx-auto">
+              <div class="card principal">
+                <img class="card-img-top customi" src="img/treino.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Treinamento de ChatBots</h5>
+                  <p class="card-text">Desenvolvimento e aprimoramento contínuo dos algoritmos de chatbots por meio de treinamento com dados relevantes para melhorar a compreensão e resposta.</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-3 g-col-md-4 mx-auto">
+              <div class="card principal">
+                <img class="card-img-top customi" src="img/dado.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Análise de Dados e Relatórios</h5>
+                  <p class="card-text">Fornecimento de análises detalhadas sobre o desempenho do chatbot, incluindo métricas como taxas de conversão, satisfação do usuário, tempos de resposta, etc.</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-3 g-col-md-4 mx-auto">
+              <div class="card principal">
+                <img class="card-img-top customi" src="img/manutençao.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Manutenção e Suporte Técnico</h5>
+                  <p class="card-text">Oferta de serviços de manutenção contínua, atualizações e suporte técnico para garantir o bom funcionamento do chatbot.</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-3 g-col-md-4 mx-auto">
+              <div class="card principal">
+                <img class="card-img-top customi" src="img/security.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Segurança e Conformidade</h5>
+                  <p class="card-text">Implementação de medidas de segurança robustas e garantia de conformidade com regulamentações de privacidade e segurança de dados.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      
+    </div>  
+  </main>
 </body>
+
+<script>
+ var modoEscuro = false;
+
+document.getElementById('tema').addEventListener('click', function() {
+  modoEscuro = !modoEscuro;
+
+  var body = document.getElementsByTagName('body')[0];
+
+  if (modoEscuro) {
+    body.classList.add('temaEscuro');
+    body.classList.remove('temaClaro');
+  } else {
+    body.classList.add('temaClaro');
+    body.classList.remove('temaEscuro');
+  }
+});
+
+</script>
 
 </html>
