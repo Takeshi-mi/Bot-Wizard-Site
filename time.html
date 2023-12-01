@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="imagex/png" href="./img/icon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/time.css">
+    <link id="style1" rel="stylesheet" href="css/time.css">
+    <link id="style2" rel="stylesheet" href="css/time2.css ">
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -15,7 +16,7 @@
 </head>
 
 <body>
-    <header>
+    <header>      
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <a class="navbar-brand" href="index.html">
@@ -41,7 +42,7 @@
         </div>
     </header>
 
-    <body>
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
@@ -50,10 +51,11 @@
                             <div class="col-md-4 col-sm-12"></div>
                             <div class="container text-white">
                                 <h1><strong>NOSSO TIME</strong></h1>
+                                <button type="button" class="btn btn-outline-warning mx-auto" onclick="toggleStyles()">Trocar Estilos</button>
                             </div> <!--col-md-4-->
                         </div> <!--row-->
                     </div> <!--container-->
-               
+
                 <section>
                     <article class="member">
                         <img src="img/takeshi.png" alt="Takeshi">
@@ -72,14 +74,32 @@
                         <h3>Yuki Miura</h3>
                     </article>
                     </section>
+
+                    <footer>
+                        <p>&copy; ChatWizard 2023 - Todos os direitos reservados</p>
+                    </footer>
+
                 </div> <!--col-12-->
             </div> <!--row-->
         </div> <!--container-fluid-->
 
-        <footer>
-            <p>&copy; ChatWizard 2023 - Todos os direitos reservados</p>
-        </footer>
 
+
+        <script>
+            function toggleStyles() {
+              var link1 = document.getElementById('style1');
+              var link2 = document.getElementById('style2');
+          
+              // Verifica qual folha de estilo está ativa e desativa, ativando a outra
+              if (link1.disabled === false) {
+                link1.disabled = true;
+                link2.disabled = false;
+              } else {
+                link2.disabled = true;
+                link1.disabled = false;
+              }
+            }
+          </script>
     </body>
 
 </html>
