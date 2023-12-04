@@ -13,14 +13,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Pegue as mensagens</title>
     <style>
-        img{
+        img {
             height: 70px;
         }
     </style>
 </head>
 
 <body>
-    <header>      
+    <header>
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <a class="navbar-brand" href="index.html">
@@ -37,7 +37,7 @@
                         <a class="nav-item nav-link" id="about-menu" href="agencia.html">A agência</a>
                         <a class="nav-item nav-link" id="services-menu" href="servicos.html">Serviços</a>
                         <a class="nav-item nav-link" id="team-menu" href="time.html">Time</a>
-                        <a class="nav-item nav-link text-warning" id="portfolio-menu" href="projetos.html">Projetos</a>
+                        <a class="nav-item nav-link" id="portfolio-menu" href="projetos.html">Projetos</a>
                         <a class="nav-item nav-link " id="contact-menu" href="contato.html">Contato</a>
                         <hr />
                     </div>
@@ -46,11 +46,11 @@
         </div>
     </header>
     <div class="espaço-title"></div>
-
-    
+    <div class="container">
+        <h6><span><a style= "color:lightgray" href="index.html">Home</a></span> > Jogo de atender mensagens</h6>
         <h2>Quantas mensagens você consegue atender</h2>
         <h2> nesse intervalo de tempo? </h2>
-
+        
         <div>
             Mensagens atendidas: <strong><span id="pontos">0</span></strong>
         </div>
@@ -58,18 +58,20 @@
             Tempo: <strong><span id="tempo">5</span></strong> segundos
         </div>
         <hr>
-        <button id="button-iniciar" class="btn-warning" onclick="iniciarJogo()" onclick="contarTempo() ">INCIAR DESAFIO</button>
+        <button id="button-iniciar" class="btn-warning" onclick="iniciarJogo()" onclick="contarTempo() ">INCIAR
+            DESAFIO</button>
         <div id="tela">
-            <img onclick="pegou(this)"  src="img/whatsapp.png"/>
-            <img onclick="pegou(this)"  src="img/mensagem.png"/>
-            <img onclick="pegou(this)"  src="img/mensagem2.png"/>
-            <img onclick="pegou(this)"  src="img/mensagem2.png"/>
+            <img onclick="pegou(this)" src="img/whatsapp.png" />
+            <img onclick="pegou(this)" src="img/mensagem.png" />
+            <img onclick="pegou(this)" src="img/mensagem2.png" />
+            <img onclick="pegou(this)" src="img/mensagem2.png" />
         </div>
-    
-    
-    
-    
-    
+
+
+
+
+
         <script src="js/jogo.js"></script>
-    </body>
+</body>
+
 </html>
