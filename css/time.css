@@ -121,3 +121,12 @@ section{
         width: 100%;
     }
 }
+
+/* footer */
+footer, p{
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: rgba(63, 0, 171, 0.61);
+}
