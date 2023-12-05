@@ -8,6 +8,7 @@ function iniciarJogo() {
     pontos = 0
     tempo = TEMPO_INICIAL
     var tela = document.getElementById("tela")
+    tela.classList.remove('d-none')
    /* tela.innerHTML = ""
     for(let i=0; i < BANDEIRAS; i++)
     {
@@ -39,6 +40,7 @@ function contarTempo()
     if(tempo< 0){
         clearInterval(timer)
         alert("Você só conseguiu atender "+pontos+" mensagens. Com o chatbot isso seria muito mais fácil")
+        location.reload();
         iniciarJogo()
     }
 }
