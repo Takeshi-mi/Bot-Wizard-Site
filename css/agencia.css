@@ -77,11 +77,9 @@ footer {
     }
 
     /* Footer */
-    footer {
-        margin-top: auto;
-        padding: auto;
-        bottom: 0;
-        width: 100%;
-    }
+    footer{
+        border-top: 2px solid gray;
+        
+      }
 
 }
