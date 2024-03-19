@@ -1,7 +1,7 @@
-# BotWizard Technology
+# Mage Chatbots Agency
 ## Serviços de ChatBot tão bons que parecem magia.
 
-![Botwizard_logo](https://github.com/Takeshi-mi/Bot-Wizard-Site/assets/101356765/c3f7eff9-2801-410c-b826-887bbf91fa73)
+![MageChatbots_logo](https://github.com/Takeshi-mi/Bot-Wizard-Site/assets/101356765/c3f7eff9-2801-410c-b826-887bbf91fa73)
 
 Visite nosso site e agende uma reunião!
 
@@ -25,3 +25,4 @@ Visite nosso site e agende uma reunião!
 - [Sara Cândido](https://github.com/Sayorita)
 
 - [Naoki Miura](https://github.com/imaterialtree)
+- [Yuki Miura](https:://github.com/yuki)
