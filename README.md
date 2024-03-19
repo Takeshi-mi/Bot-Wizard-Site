@@ -5,7 +5,7 @@
 
 Visite nosso site e agende uma reunião!
 
-[https://takeshi-mi.github.io/ChatWizard-Site/](https://takeshi-mi.github.io/ChatWizard-Site/)
+[magechatbots.vercel.app](https://magechatbots.vercel.app)
 
 ## Descrição do projeto
 
