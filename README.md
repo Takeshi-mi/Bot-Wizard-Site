@@ -25,4 +25,4 @@ Visite nosso site e agende uma reunião!
 - [Sara Cândido](https://github.com/Sayorita)
 
 - [Naoki Miura](https://github.com/imaterialtree)
-- [Yuki Miura](https:://github.com/yuki)
+- [Yuki Miura](https:://github.com/Yuki-iMiura)
